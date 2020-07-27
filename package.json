@@ -1,0 +1,26 @@
+{
+  "name": "week5hw",
+  "version": "1.0.0",
+  "description": "Week 5 Homework",
+  "main": "userInput.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylermcleant/homework-5.git"
+  },
+  "keywords": [
+    "password",
+    "validation"
+  ],
+  "author": "Tyler McLean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylermcleant/homework-5/issues"
+  },
+  "homepage": "https://github.com/tylermcleant/homework-5#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
