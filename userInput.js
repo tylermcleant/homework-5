@@ -30,6 +30,7 @@ inquirer
     var fs = require("fs");
 // Storing needed for the userPassword.txt file per requirements. 
     fs.writeFile("./userPassword.txt",data.username + " : " + data.password,
+// In the event of an error, the appropriate code is used as a precaution.
 function(err) {
     if (err) {
         return console.log(err);
